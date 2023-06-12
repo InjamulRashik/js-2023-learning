@@ -274,26 +274,26 @@ Function Declaration Vs Function Expression
 
 // console.log(getLetter(""));
 
-function vowelsAndConsonants(s) {
-  const vowelsCheck = ["a", "e", "i", "o", "u"];
-  const vowels = [];
-  const consonants = [];
+// function vowelsAndConsonants(s) {
+//   const vowelsCheck = ["a", "e", "i", "o", "u"];
+//   const vowels = [];
+//   const consonants = [];
 
-  for (let i = 0; i < s.length; i++) {
-    const char = s.charAt(i).toLowerCase();
+//   for (let i = 0; i < s.length; i++) {
+//     const char = s.charAt(i).toLowerCase();
 
-    if (vowelsCheck.includes(char)) {
-      vowels.push(char);
-    } else if (/[a-z]/.test(char)) {
-      consonants.push(char);
-    }
-  }
-  for (let i = 0; i < vowels.length; i++) {
-    console.log(vowels[i]);
-  }
-  for (let i = 0; i < consonants.length; i++) {
-    console.log(consonants[i]);
-  }
-}
+//     if (vowelsCheck.includes(char)) {
+//       vowels.push(char);
+//     } else if (/[a-z]/.test(char)) {
+//       consonants.push(char);
+//     }
+//   }
+//   for (let i = 0; i < vowels.length; i++) {
+//     console.log(vowels[i]);
+//   }
+//   for (let i = 0; i < consonants.length; i++) {
+//     console.log(consonants[i]);
+//   }
+// }
 
-vowelsAndConsonants("JavaScriptLoop");
+// vowelsAndConsonants("JavaScriptLoop");
